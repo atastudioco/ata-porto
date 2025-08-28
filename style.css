@@ -72,3 +72,20 @@ section.show-motion .motion {
 section .motion {
   transition: 1s;
 }
+
+/* section-3 */
+.sec-3 .image img {
+  position: center;
+  max-width: 400;
+  margin: 0 5px;
+  margin-top: 10px;
+  transform: translateX(100%);
+  transition-delay: calc(0.2s * var(--i));
+}
+.sec-3.show-motion .image img {
+  transform: translateX(0);
+}
+
+section .motion {
+  transition: 1s;
+}
